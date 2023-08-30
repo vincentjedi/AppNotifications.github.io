@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(24 16 40);
+  --tw-text-opacity: 1;
+    color: rgb(240 239 254);
+}
+
+.container {
+    width: 600px;
+    height: 550px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+   
+}
+
+
+.App-notifications {
+    max-width: 345px;
+    height: 100vh;    
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    margin: -550px auto;
+    background-color: rgb(24 16 40);
+  --tw-text-opacity: 1;
+    color: rgb(240 239 254);;
+    scroll-behavior: auto;
+}
+
+span {
+    display: block;
+    
+}
+
+span>h3 {
+    text-transform: uppercase;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+span>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#view-all {
+    cursor: pointer;
+    font-size: small;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.container>span:nth-child(1) {
+    left: 4rem;
+    font-size: 20px;
+    font-weight: lighter;
+    border-radius: 50%;
+    border: 1px solid orangered;
+    color: orange;
+    width: fit-content;
+    padding: 6px;
+    cursor: pointer;
+    margin-left: 26rem;
+}
+
+button{
+    margin-left: 17rem;
+ 
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 3px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: small;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+#image1{
+    padding: 0.5rem 0;
+    cursor: pointer;
+
+}
+
+#image1:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#image1>span :nth-child(2) {
+    margin-left: 3rem;
+    margin-top: -2.8rem;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+.text p {
+    margin-top: -1.5rem;
+    margin-left: 3rem;
+    color: white;
+    width: 100%;
+}
+
+.time{
+    margin-left: 3rem;
+    font-size: 10px;
+color: whitesmoke;
+}
+
+#image2{
+    padding: 0.5rem 0;
+    cursor: pointer;
+
+}
+
+#image2:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#image2>span :nth-child(2) {
+    margin-left: 3rem;
+    margin-top: -2.8rem;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 3px;
+}
+
+#image3{
+    padding: 0.5rem 0;
+    cursor: pointer;
+
+}
+
+#image3:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#image3>span :nth-child(2) {
+    margin-left: 3rem;
+    margin-top: -2.8rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#image3 .text p {
+    margin-top: 0.5px;
+    margin-left: 3rem;
+    color: white;
+}
+
+#image3 .time{
+    margin-left: 3rem;
+    font-size: 10px;
+color: whitesmoke;
+}
+
+#image4{
+    padding: 0.5rem 0;
+    cursor: pointer;
+
+}
+
+#image4:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+#image4>span :nth-child(2) {
+    margin-left: 3rem;
+    margin-top: -2.8rem;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#image4 .text p {
+    margin-top: 0.5px;
+    margin-left: 3rem;
+    color: white;
+}
+
+#image4 .time{
+    margin-left: 3rem;
+    font-size: 10px;
+color: whitesmoke;
+}
+
+#see-all{
+    display: none;
+}
+
+
+
+
+
